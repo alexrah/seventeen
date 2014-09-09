@@ -2938,8 +2938,8 @@ label.error {
       .top-bar-section ul li > a.button.alert.hover {
         background: #970b0e; }
   .top-bar-section ul li.hover > a {
-    background: #090909;
-    color: white; }
+    background: transparent;
+    color: red; }
   .top-bar-section ul li.active > a {
     background: #090909;
     color: white; }
@@ -3109,7 +3109,7 @@ label.error {
         right: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #090909;
+    /* background: #090909; */
     color: white; }
   .no-js .top-bar-section ul li:active > a {
     background: #090909;

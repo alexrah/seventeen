@@ -47,7 +47,7 @@ ul, ol {
 }
 .top-bar-section ul li > a{font-weight: lighter;}
 .top-bar a:hover {
-      color: #E67E22; 
+      color: #ed1e79; 
 	  }
 	  
 .top-bar-section li a:not(.button), .top-bar-section ul {
@@ -59,12 +59,12 @@ ul, ol {
 /* background: #4e6d8d;\
  */
 background: transparent;
-color: red;
+color: #ed1e79;
 }
 .top-bar-section li a:not(.button):hover{
 /* background: #4e6d8d;\
  */
-background: black;
+background: transparent;
 }
 /* Buttons */
 
@@ -330,6 +330,13 @@ ul.latestnews, .tagspopular ul {
 	float:right;
 }
 
+
+.mod-languages {
+  float: right;
+  margin: -74px -15px 0 0 ;
+
+}
+
  /* Foundation overrides */
  
  .row .row {
@@ -347,4 +354,35 @@ margin-right: -0.9375em;
 margin-top: 0;
 margin-bottom: 0;
 max-width: none;
+}
+
+#logo{
+  float: left;
+  margin: -57px 0;
+}
+
+#credits{
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  font-size: 12px;
+}
+
+#slogan{
+position: fixed;
+bottom: 40px;
+text-align: right;
+color: lightgray;
+margin-right: 10px;
+margin-left: 10px;
+font-size: 12px;
+background-color: rgba(0,0,0,0.5);
+padding: 10px;
+border-radius: 5px;
+}
+
+#social{
+bottom: 160px;
+position: fixed;
+left: 10px;
 }
